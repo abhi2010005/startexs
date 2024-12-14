@@ -24,7 +24,7 @@ const page = () => {
             <textarea rows={6} cols={56} className='rounded-md text-md px-3 py-1 text-black' placeholder='Its a web poject of healthcare.'/>
           </div>
         </div>
-          <div className='flex gap-8 mt-20'>
+          <div className='flex gap-8 mt-5'>
             <h2>Get start with STARTEXS</h2>
             <h2>Or mail us at <a href='#' className='text-blue-500'>sales@startexs.com</a></h2>
           </div>
