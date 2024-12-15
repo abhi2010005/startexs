@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             {/* <h1 className='bg-gradient-to-br from-red-500 to-purple-500 text-transparent bg-clip-text text-5xl uppercase font-semibold mt-2'>Empowering your <br/> vision with Startexs</h1> */}
             <HeroText />
-            <p className='mt-2'>At Startexs, we transform your ideas into reality. Through cutting-edge innovation and solutions tailored to your unique needs, we empower businesses to achieve their true potential. Partner with us to unlock new possibilities, elevate your brand, and drive success with precision and creativity. Join us on a journey where your vision meets our expertise, and together, we'll build a future that inspires.</p>
+            <p className='mt-2'>At Startexs, we transform your ideas into reality. Through cutting-edge innovation and solutions tailored to your unique needs, we empower businesses to achieve their true potential. Partner with us to unlock new possibilities, elevate your brand, and drive success with precision and creativity. Join us on a journey where your vision meets our expertise, and together, we&apos;ll build a future that inspires.</p>
           </div>
           <div className=''>
             <video className='object-cover' autoPlay loop muted>
