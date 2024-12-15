@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page = () => {
+const ContactUs = () => {
   return (
     <div className='text-white mt-20 ml-20'>
       <h2 className='text-4xl'>Tell us more about your project 🖐️✋</h2>
@@ -32,4 +32,4 @@ const page = () => {
   )
 }
 
-export default page
+export default ContactUs

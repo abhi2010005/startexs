@@ -4,20 +4,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import StartexsLogo from '@/components/StartexsLogo';
 
-const page = () => {
+const About = () => {
   return (
     <div className='text-white mx-16 mt-20'>
       <div className='grid grid-cols-2 gap-10 '>
-        <div className=''>
+        <div>
           <h2 className='text-4xl font-serif'>Who we are...🙎‍♂️</h2>
           <p className='mt-10'>At <span className='font-bold text-blue-500'>Startexs</span>, we are a passionate team of <span className='font-serif text-lg text-teal-400'>innovators, creators, and problem-solvers</span> dedicated to transforming ideas into reality. With a commitment to excellence, we craft unique and tailored solutions that empower businesses and individuals to reach their full potential.
           <br/>
-          <span className='text-xl'>Our</span> approach blends cutting-edge technology with a deep understanding of our clients' needs, allowing us to deliver results that are not only effective but also meaningful. From the first spark of an idea to the final product, we're with you every step of the way, ensuring that your vision is brought to life with precision and care.
+          <span className='text-xl'>Our</span> approach blends cutting-edge technology with a deep understanding of our clients&apos;s needs, allowing us to deliver results that are not only effective but also meaningful. From the first spark of an idea to the final product, we&apos;re with you every step of the way, ensuring that your vision is brought to life with precision and care.
           <br/>
-          Whether you're a startup or an established enterprise, Startexs is your trusted partner in navigating the complexities of today's digital world. We take pride in our ability to think outside the box, deliver results on time, and exceed expectations.
+          Whether you&apos;re a startup or an established enterprise, Startexs is your trusted partner in navigating the complexities of today&apos;s digital world. We take pride in our ability to think outside the box, deliver results on time, and exceed expectations.
           <Link href='/contact-us' className='font-bold text-blue-500'>Join Us</Link> on this journey of innovation and growth-together, we can make your vision a reality.</p>
         </div>
-        <div className=' flex  justify-center w-full '>
+        <div className='flex justify-center w-full '>
           <StartexsLogo/>
         </div>
       </div>  
@@ -67,4 +67,4 @@ const page = () => {
   )
 }
 
-export default page
+export default About

@@ -4,8 +4,7 @@ import "./globals.css"
 import Service from '@/components/Service';
 import LatestWork from '@/components/LatestWork';
 import HeroText from '@/components/HeroText';
-import { motion } from "framer-motion";
-const page = () => {
+const Home = () => {
 
   const [isAnimating, setIsAnimating] = useState(true);
 
@@ -42,4 +41,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default Home;
