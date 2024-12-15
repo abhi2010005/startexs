@@ -1,5 +1,5 @@
 'use client'
-import React from 'react'
+import React, { useState } from 'react'
 import "./globals.css"
 import Service from '@/components/Service';
 import LatestWork from '@/components/LatestWork';
@@ -7,7 +7,7 @@ import HeroText from '@/components/HeroText';
 import { motion } from "framer-motion";
 const page = () => {
 
-  const [isAnimating, setIsAnimating] = React.useState(true);
+  const [isAnimating, setIsAnimating] = useState(true);
 
   React.useEffect(() => {
     const interval = setInterval(() => {
